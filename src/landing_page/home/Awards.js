@@ -32,7 +32,7 @@ function Awards() {
                             <p>Direct mutual funds</p>
                         </li>
                         <li>
-                            <p>Bondss and Govt. Securities</p>
+                            <p>Bonds and Govt. Securities</p>
                         </li>
                     </ul>
                         </div>
