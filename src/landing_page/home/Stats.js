@@ -13,7 +13,7 @@ function Stats() {
                     <h2 className='fs-4'>The Zerodha universe</h2>
                     <p className='text-muted'>Not just an app, but a whole ecosystem. Our investments in 30+ fintech startups offer you tailored services specific to your needs.</p>
                     <h2 className='fs-4'>Do better with money</h2>
-                    <p className='text-muted'>With initiatives like Nudge and Kill Switch , we don't just facilitate transactions, but actively help you do better with your money.</p>
+                    <p className='text-muted'>With initiative like Nudge and Kill Switch , we don't just facilitate transactions, but actively help you do better with your money.</p>
                     
                 </div>
                 <div className='col-6'>
@@ -22,7 +22,6 @@ function Stats() {
                         <a href='' className='mx-5' style={{textDecoration:"none"}}>Explore Our products <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                         <a href='' className='mx-5' style={{textDecoration:"none"}}>Try Kite demo <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                     </div>
-                    
                 </div>
 
             </div>
