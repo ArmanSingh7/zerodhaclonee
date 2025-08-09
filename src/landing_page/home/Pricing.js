@@ -8,7 +8,7 @@ function Pricing() {
                 <p>We pioneered the concept of discount broking
                     and price transparency in India. Flat fees and no hidden charges.
                 </p>
-                 <a href='' className='mx-5' style={{textDecoration:"none"}}>Try Kite demo <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                 <a href='' className='mx-5' style={{textDecoration:"none"}}>See Price <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                 <div className='col-2'></div>
                 <div className='col-6'></div>
 
