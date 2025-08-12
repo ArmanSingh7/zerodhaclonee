@@ -17,9 +17,6 @@ function Education() {
                     </p>
                     <a href='' className='mx-0 ' style={{textDecoration:"none"}}>TradingQ&A<i class="fa fa-arrow-right ms-2" aria-hidden="true"></i></a>
                  </div>
-                
-                
-
             </div>
         </div>
      );
