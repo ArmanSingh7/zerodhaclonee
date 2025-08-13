@@ -5,7 +5,7 @@ function Stats() {
         <div className='container pt-3 px-5'>
             <div className='row pt-3 px-5'>
                 <div className='col-6 pt-3 px-5 text-muted'>
-                    <h1 className='fs-3 mb-5'>Trust With Confidence</h1>
+                    <h1 className='fs-3 mb-5' style={{color:"#424242"}}>Trust With Confidence</h1>
                     <h2 className='fs-4'>Customer-first always</h2>
                     <p className='text-muted pt-3 mb-4' style={{ lineHeight: "1.6",paddingRight: "6.5rem" }}>That's why 1.6+ crore customers trust Zerodha with ~ ₹6 lakh crores of equity investments, making us India’s largest broker; contributing to 15% of daily retail exchange volumes in India. </p>
                     <h2 className='fs-4 '>No spam or gimmicks</h2>
