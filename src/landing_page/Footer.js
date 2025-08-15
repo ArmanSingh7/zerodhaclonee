@@ -49,7 +49,7 @@ function Footer() {
                     <a href="">Brokerage charges</a><br/>
                     <a href="">Market holidays</a><br/>
                     <a href="">Economic calendar</a><br/>
-                    <a href="">Calculators</a><br/>
+                    <a href="">Calculator</a><br/>
                     <a href="">Markets</a><br/>
                     <a href="">Sectors</a><br/>
                     
