@@ -5,7 +5,7 @@ function Footer() {
             <div className="row">
                 <div className="col">
                     <img src="media/logo.svg" style={{width:"50%"}}/>
-                    <p>© 2010 - 2025, Zerodha Broking Ltd.
+                    <p>© &copy; 2010 - 2025, Zerodha Broking Ltd.
                         All rights reserved.</p>
                 </div>
                 <div className="col">
