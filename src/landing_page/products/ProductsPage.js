@@ -1,8 +1,19 @@
 import React from 'react';
-function ProductPage() {
+import Hero from './Hero';
+import LeftSection from './LeftSection';
+import RightSection from './RightSection';
+import Universe from './Universe';
+
+function PricingPage() {
     return ( 
-        <h1>Product Page</h1>
+       <>
+        <Hero/>
+        <LeftSection/>
+        <RightSection/>
+        <Universe/>
+       </>
+       
      );
 }
 
-export default ProductPage;
+export default PricingPage;
