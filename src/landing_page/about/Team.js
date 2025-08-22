@@ -4,6 +4,7 @@ function Team() {
     return ( 
         <>
        <Hero/>
+       <Team/>
 
         </>
      );
