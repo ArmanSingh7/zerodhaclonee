@@ -3,8 +3,7 @@ import Hero from "./Hero";
 function Team() {
     return ( 
         <>
-       <Hero/>
-       <Team/>
+       <h1>Team</h1>
 
         </>
      );
