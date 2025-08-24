@@ -12,7 +12,7 @@ function Hero() {
         </div>
         <div className='row p-5'>
             <div className='col p-5'>
-                <p style={{}}>We kick-started operations on the 15th of August, 2010 with the goal of breaking all barriers that traders and investors face in India in terms of cost, support, and technology. We named the company Zerodha, a combination of Zero and "Rodha", the Sanskrit word for barrier.
+                <p style={{color:"#424242", lineHeight:"1.5", fontSize:"1.5rem"}}>We kick-started operations on the 15th of August, 2010 with the goal of breaking all barriers that traders and investors face in India in terms of cost, support, and technology. We named the company Zerodha, a combination of Zero and "Rodha", the Sanskrit word for barrier.
                </p>
                <p>
 
