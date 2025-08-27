@@ -2,7 +2,7 @@ import React from 'react';
 
 function Hero() {
     return ( 
-      <div className='container p-5'>
+      <div className='container pt-5 px-5'>
         <div className='row p-5 border-bottom'>
             <h1 className='fs-4 text-center p-5' style={{color:"#424242", lineHeight:"1.5", fontSize:"1.5rem"}}>
                 We pioneered the discount broking model in India. 
