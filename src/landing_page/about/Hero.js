@@ -3,7 +3,7 @@ import React from 'react';
 function Hero() {
     return ( 
       <div className='container p-5'>
-        <div className='row p-5 border'>
+        <div className='row p-5 border-bottom'>
             <h1 className='fs-3 text-center p-5' style={{color:"#424242", lineHeight:"1.5", fontSize:"1.5rem"}}>
                 We pioneered the discount broking model in India. 
                 <br/>
@@ -24,7 +24,7 @@ function Hero() {
                 Over 1.6+ crore clients place billions of orders every year through our powerful ecosystem of investment platforms, contributing over 15% of all Indian retail trading volumes.</p>
                 <br/>
             </div>
-            <div className='col p-5'>
+            <div className='col-6 p-5'>
                 
                 <p>In addition, we run a number of popular open online educational and community initiatives to empower retail traders and investors.</p>
                 <p>Rainmatter, our fintech fund and incubator, has invested in several fintech startups with the goal of growing the Indian capital markets.</p>
