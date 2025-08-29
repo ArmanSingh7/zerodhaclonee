@@ -4,15 +4,15 @@ function Hero() {
     return ( 
       <div className='container p-5'>
         <div className='row p-5 border-bottom'>
-            <h1 className='fs-3 text-center p-5' style={{color:"#424242", lineHeight:"1.5", fontSize:"1.5rem"}}>
+            <h1 className='fs-4 text-center p-5' style={{color:"#424242", lineHeight:"1.5", fontSize:"1.5rem"}}>
                 We pioneered the discount broking model in India. 
                 <br/>
                 Now, we are breaking ground with our technology.
             </h1>
         </div>
-        <div className='row p-5'>
+        <div className='row p-5 fs-6' style={{color:"#424242"}}>
             <div className='col p-5'>
-                <p style={{color:"#424242", lineHeight:"1.5", fontSize:"1.5rem"}}>We kick-started operations on the 15th of August, 2010 with the goal of breaking all barriers that traders and investors face in India in terms of cost, support, and technology. We named the company Zerodha, a combination of Zero and "Rodha", the Sanskrit word for barrier.
+                <p >We kick-started operations on the 15th of August, 2010 with the goal of breaking all barriers that traders and investors face in India in terms of cost, support, and technology. We named the company Zerodha, a combination of Zero and "Rodha", the Sanskrit word for barrier.
                </p>
                <p>
 
@@ -27,7 +27,7 @@ function Hero() {
             <div className='col-6 p-5'>
                 
                 <p>In addition, we run a number of popular open online educational and community initiatives to empower retail traders and investors.</p>
-                <p>Rainmatter, our fintech fund and incubator, has invested in several fintech startups with the goal of growing the Indian capital markets.</p>
+                <p> <a href=" ">Rainmatter</a>, our fintech fund and incubator, has invested in several fintech startups with the goal of growing the Indian capital markets.</p>
                 
                 <p>And yet, we are always up to something new every day. Catch up on the latest updates on our blog or see what the media is saying about us or learn more about our business and product philosophies.</p>
                 
