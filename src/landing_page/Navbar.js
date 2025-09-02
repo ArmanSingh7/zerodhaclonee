@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
 
-      <nav class="navbar navbar-expand-lg fixed-top " style={{backgroundColor:"#FFF"}}>
-        <div class="container p-2">
+      <nav class="navbar navbar-expand-lg fixed-top border-bottom" style={{backgroundColor:"#FFF",paddingLeft:"12.5%",paddingRight:"2%"}}>
+        <div class="container p-2 ">
           <Link class="navbar-brand" to="/">
             <img src="media/logo.svg" alt="Logo" style={{width:"25%"}}/>
           </Link>
@@ -23,29 +23,29 @@ function Navbar() {
            
 
             <form class="d-flex" role="search">
-               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0" style={{marginLeft:"-15%"}}>
               <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="/signup" style={{color:"#424242",fontWeight:"400"}}>
+                <Link class="nav-link active" aria-current="page" to="/signup" style={{color:"GrayText",fontWeight:"500",fontSize:"15px"}}>
                   Signup
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link active" to="/about" style={{color:"#424242",fontWeight:"400"}}>
+                <Link class="nav-link active" to="/about" style={{color:"GrayText",fontWeight:"500",fontSize:"15px"}}>
                   About
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link active" to="/product" style={{color:"#424242",fontWeight:"400"}}>
+                <Link class="nav-link active" to="/product" style={{color:"GrayText",fontWeight:"500",fontSize:"15px"}}>
                  Products
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link active" to="/pricing" style={{color:"#424242",fontWeight:"400"}}>
+                <Link class="nav-link active" to="/pricing" style={{color:"GrayText",fontWeight:"500",fontSize:"15px"}}>
                  Pricing
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link active" to="/support" style={{color:"#424242",fontWeight:"400"}}>
+                <Link class="nav-link active" to="/support" style={{color:"GrayText",fontWeight:"500",fontSize:"15px"}}>
                  Support
                 </Link>
               </li>
