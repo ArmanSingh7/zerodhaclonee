@@ -4,7 +4,9 @@ import LeftSection from './LeftSection';
 
 function PricingPage() {
     return ( 
-        <></>
+        <>
+        <h1>Right Section</h1>
+        </>
         
      );
 }
