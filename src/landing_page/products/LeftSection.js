@@ -31,60 +31,29 @@ function LeftSection({
           </p>
           <div>
             {tryDemo && (
-              <a href={tryDemo} style={{
-                  textDecoration: "none",
-                  fontSize: "16px",
-                  fontWeight: "500",}}>
+              <a href={tryDemo} style={{textDecoration: "none",fontSize: "16px",fontWeight: "500",}}>
                 Try Demo →
-              </a>
-            )}
-
+              </a>)}
             {coin && (
-              <a
-                href={coin}
-                style={{
-                  marginLeft: tryDemo ? "20px" : 0,
-                  textDecoration: "none",
-                  fontSize: "16px",
-                  fontWeight: "500",
-                }}
-              >
-                Coin →
-              </a>
-            )}
-
+              <a href={coin}style={{ marginLeft: tryDemo ? "20px" : 0,textDecoration: "none",fontSize: "16px",fontWeight: "500",}}>
+                Coin →</a>)}
             {learnMore && (
-              <a
-                href={learnMore}
-                style={{
+              <a href={learnMore}style={{
                   marginLeft: tryDemo || coin ? "20px" : 0,
                   textDecoration: "none",
-                  fontWeight: "500",
-                }}
-              >
-                Learn More →
-              </a>
-            )}
+                  fontWeight: "500",}}>
+                Learn More →</a>)}
           </div>
-
           {(googlePlay || appStore) && (
-            <div className="mt-3">
-              {googlePlay && (
-                <a href={googlePlay}>
-                  <img
+            <div className="mt-3">{googlePlay && (
+                <a href={googlePlay}><img
                     src="media/googlePlayBadge.svg"
-                    alt="Get it on Google Play"
-                  />
-                </a>
-              )}
+                    alt="Get it on Google Play"/></a>)}
               {appStore && (
                 <a href={appStore}
-                  style={{ marginLeft: googlePlay ? "20px" : 0 }}
-                >
-                  <img
-                    src="media/appstoreBadge.svg"
-                    alt="Download on the App Store"
-                  />
+                  style={{ marginLeft: googlePlay ? "20px" : 0 }}>
+                  <img src="media/appstoreBadge.svg"
+                    alt="Download on the App Store"/>
                 </a>
               )}
             </div>

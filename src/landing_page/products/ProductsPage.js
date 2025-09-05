@@ -22,7 +22,6 @@ function PricingPage() {
           imageURL="media/coin.png"
           productName="Coin"
           productDescription="Buy direct mutual funds online, commission-free, delivered directly to your Demat account. Enjoy the investment experience on your Android and iOS devices."
-          
           coin="#"
           googlePlay="#"
           appStore="#"
@@ -34,8 +33,6 @@ function PricingPage() {
           productDescription="An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go."
           googlePlay="#"
           appStore="#"
-          
-          
         />
         <RightSection/>
         <Universe/>
@@ -43,5 +40,4 @@ function PricingPage() {
        
      );
 }
-
 export default PricingPage;
