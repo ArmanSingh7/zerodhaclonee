@@ -17,7 +17,12 @@ function PricingPage() {
           googlePlay="#"
           appStore="#"
         />
-        <RightSection/>
+        <RightSection
+        imageURL="media/console.png"
+        productName="Console"
+        productDescription="The central dashboard for your Zerodha account. Gain insights into your trades and investments with in-depth reports and visualisations."
+        learnmore="#"
+        />
         <LeftSection
           imageURL="media/coin.png"
           productName="Coin"
