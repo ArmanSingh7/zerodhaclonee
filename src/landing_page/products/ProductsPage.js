@@ -21,7 +21,7 @@ function PricingPage() {
         imageURL="media/console.png"
         productName="Console"
         productDescription="The central dashboard for your Zerodha account. Gain insights into your trades and investments with in-depth reports and visualisations."
-        learnmore="#"
+        tryDemo="#"
         />
         <LeftSection
           imageURL="media/coin.png"
@@ -31,7 +31,11 @@ function PricingPage() {
           googlePlay="#"
           appStore="#"
         />
-        <RightSection/>
+        <RightSection
+        imageURL="media/kiteconnect2.svg"
+        productName="Kite Connect API"
+        productDescription="Build powerful trading platforms and experiences with our super simple HTTP/JSON APIs. If you are a startup, build your investment app and showcase it to our clientbase."
+        learnMore="#"/>
         <LeftSection
           imageURL="media/varsity.png"
           productName="Varsity mobile"
@@ -39,7 +43,8 @@ function PricingPage() {
           googlePlay="#"
           appStore="#"
         />
-        <RightSection/>
+        
+        <p className='fs-5 text-center '>Want to know more about our technology stack? Check out the <a href="#" style={{textDecoration:"none"}}>Zerodha.tech</a> blog.</p>
         <Universe/>
        </>
        
