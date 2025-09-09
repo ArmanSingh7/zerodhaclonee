@@ -11,12 +11,12 @@ function LeftSection({
 }) {
   return (
     <div className="container text-muted">
-      <div className="row">
-        <div className="col-6 p-5">
+      <div className="row pl-5 pr-5 mt-5 mb-5">
+        <div className="col-6 ">
           <img src={imageURL} style={{ paddingLeft: "15%" }} alt="" />
         </div>
         <div className="col-1"></div>
-        <div className="col-5 p-5 mt-5">
+        <div className="col-5 mt-5">
           <h1 className="fs-4 mb-4">{productName}</h1>
           <p
             style={{
@@ -24,7 +24,7 @@ function LeftSection({
               paddingRight: "18%",
               lineHeight: "1.8rem",
               color: "#424242",
-              wordSpacing: "2px",
+              wordSpacing: "2px"
             }}
           >
             {productDescription}

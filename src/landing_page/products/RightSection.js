@@ -10,11 +10,11 @@ function RightSection({
     appStore,
 }) {
     return ( 
-    <div className="container text-muted">
-      <div className="row">
-            <div className="col-6 mt-5 " style={{paddingRight:"5%",paddingLeft:"10%",paddingTop:"10%"}}>
+    <div className="container text-muted ">
+      <div className="row mt-5 pt-5">
+            <div className="col-6 pt-5 mt-5" style={{paddingRight:"5%",paddingLeft:"10%"}}>
           
-                <h1 className="fs-4 mt-5 mb-4">{productName}</h1>
+                <h1 className="fs-4">{productName}</h1>
                 <p
                     style={{
                     fontSize: "1.08rem",
@@ -43,7 +43,7 @@ function RightSection({
           
           
         </div>
-            <div className="col-6 p-5 mt-5">
+            <div className="col-6  ">
                 <img src={imageURL} style={{ paddingRight: "1%",marginLeft:"-13%" }} alt="" />
             </div>
       </div>

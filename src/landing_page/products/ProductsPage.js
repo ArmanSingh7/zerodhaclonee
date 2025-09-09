@@ -19,7 +19,7 @@ function PricingPage() {
         />
         <RightSection
         imageURL="media/console.png"
-        productName="Console"
+        productName={<span style={{ paddingTop: '100px', display: 'block' }}>Console</span>}
         productDescription="The central dashboard for your Zerodha account. Gain insights into your trades and investments with in-depth reports and visualisations."
         tryDemo="#"
         />
@@ -44,7 +44,7 @@ function PricingPage() {
           appStore="#"
         />
         
-        <p className='fs-5 text-center '>Want to know more about our technology stack? Check out the <a href="#" style={{textDecoration:"none"}}>Zerodha.tech</a> blog.</p>
+        <p className='fs-5 mt-5 pt-4 text-center '>Want to know more about our technology stack? Check out the <a href="#" style={{textDecoration:"none"}}>Zerodha.tech</a> blog.</p>
         <Universe/>
        </>
        
