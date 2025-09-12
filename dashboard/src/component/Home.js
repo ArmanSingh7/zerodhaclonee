@@ -1,6 +1,6 @@
 import React from 'react'
 import TopBar  from './TopBar';
-import { Dashboard } from './Dashboard';
+import Dashboard from './Dashboard';
 
 const Home = () => {
   return (
