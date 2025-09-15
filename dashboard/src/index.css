@@ -18,6 +18,7 @@ code {
   display: flex;
   align-items: center;
   box-sizing: border-box;
+   flex-direction: row-reverse;
 }
 
 .content {
@@ -300,6 +301,7 @@ hr {
   align-items: center;
   justify-content: space-evenly;
   margin-left: 20px;
+  margin-right: 300px;
 }
 
 .profile .avatar {

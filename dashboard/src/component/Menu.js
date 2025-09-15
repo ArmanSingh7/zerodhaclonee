@@ -3,7 +3,14 @@ import React from 'react'
 const Menu = () => {
   return (
     <div className='menu-container'>
+      <img src="kite-logo.svg" style={{width:"4%"}}/>
       <div className='menus'>
+        <div className='profile'>
+            <div className='avatar'>
+              ZU
+            </div>
+            <p className='username'>USERID</p>
+          </div>
           <ul>
             <li>
               <p>Dashboard</p>
@@ -25,12 +32,7 @@ const Menu = () => {
             </li>
           </ul>
           <hr/>
-          <div className='profile'>
-            <div className='avatar'>
-              ZU
-            </div>
-            <p className='username'>USERID</p>
-          </div>
+          
       </div>
       
     </div>
