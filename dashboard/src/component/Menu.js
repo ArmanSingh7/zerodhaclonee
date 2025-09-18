@@ -7,7 +7,7 @@ const Menu = () => {
       <div className='menus'>
         <div className='profile'>
             <div className='avatar'>
-              ZU
+              ZU 
             </div>
             <p className='username'>USERID</p>
           </div>
