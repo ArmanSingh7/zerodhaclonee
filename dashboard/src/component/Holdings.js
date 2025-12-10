@@ -7,12 +7,13 @@ const Holdings = () => {
 
   const [allHoldings,setAllHoldings] = useState([]);
 
-  useEffect(()=>{
-    axios.get("https://zerodhaclonee-rx1c.onrender.com/allHoldings").then((res)=>{
-      console.log(res.data);
-      setAllHoldings(res.data);
-    });
-  },[]);
+  useEffect(() => {
+  axios.get("https://zerodhaclonee-rx1c.onrender.com/allHoldings").then((res) => {
+    console.log("RAW HOLDINGS:", res.data);
+    res.data.forEach(item => console.log(item.name, typeof item.price));
+    setAllHoldings(res.data);
+  });
+}, []);
 
 //const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
 const labels = allHoldings.map((subArray)=> subArray["name"]);
@@ -22,7 +23,7 @@ const data={
   datasets: [
     {
       label: "Stock Price",
-      data: allHoldings.map((stock)=> stock.price),
+      data: allHoldings.map((stock) => Number(stock.price)),
       backgroundColor: "rgba(255,99,132,0.5)",
     },
   ],
