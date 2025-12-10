@@ -13,6 +13,9 @@ const {createSecretToken} = require('./util/SecretToken');
 const {Holdingmodel} = require('./model/Holdingmodel');
 const { PositionsModel } = require('./model/PositionsModel');
 
+const bcrypt = require("bcryptjs");
+const jwt = require("jsonwebtoken");
+
 const {OrdersModel} = require("./model/OrdersModel");
 
 const PORT = process.env.PORT || 3002; 
@@ -23,10 +26,10 @@ const uri = process.env.MONGO_URL;
 const app = express();
 const allowedOrigins = process.env.ALLOWED_ORIGINS 
   ? process.env.ALLOWED_ORIGINS.split(',')
-  : ['http://localhost:3000', 'http://localhost:3001',"https://*.amplifyapp.com"];
+  : ['http://localhost:3000', 'http://localhost:3001',"https://main.d371cxcz1tpl3z.amplifyapp.com",'https://zerodhaclonee-rx1c.onrender.com'];
 
 app.use(cors({
-  origin: ["http://localhost:3001", "http://localhost:3000"],
+  origin: ["http://localhost:3000", "https://zerodhaclonee-rx1c.onrender.com"],
   methods: "GET,POST,PUT,DELETE",
   credentials: true
 }));
