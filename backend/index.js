@@ -29,10 +29,15 @@ const allowedOrigins = process.env.ALLOWED_ORIGINS
   : ['http://localhost:3000', 'http://localhost:3001',"https://main.d371cxcz1tpl3z.amplifyapp.com",'https://zerodhaclonee-rx1c.onrender.com'];
 
 app.use(cors({
-  origin: ["http://localhost:3000", "https://zerodhaclonee-rx1c.onrender.com"],
+  origin: [
+    "http://localhost:3000",
+    "http://localhost:3001",
+    "https://main.d371cxcz1tpl3z.amplifyapp.com"
+  ],
   methods: "GET,POST,PUT,DELETE",
   credentials: true
 }));
+
 
 
 app.use(bodyParser.json());
