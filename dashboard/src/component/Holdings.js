@@ -21,7 +21,7 @@ const data={
   labels,
   datasets: [
     {
-      label: "Stock Name",
+      label: "Stock Price",
       data: allHoldings.map((stock)=> stock.price),
       backgroundColor: "rgba(255,99,132,0.5)",
     },
