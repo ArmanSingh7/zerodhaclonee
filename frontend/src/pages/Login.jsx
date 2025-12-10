@@ -19,7 +19,7 @@ export default function Login() {
     const result = await login(email, password);
     
     if (result.success) {
-      const REDIRECT_URL=process.env.REACT_APP_DASHBOARD_URL||  'http://localhost:3001';
+      const REDIRECT_URL=process.env.REACT_APP_DASHBOARD_URL||  'https://zerodhaclonee-rx1c.onrender.com/login';
         setTimeout(()=>{
 window.location.href =  `${REDIRECT_URL}/`;
         },5000);
